@@ -1,0 +1,27 @@
+// A Go Program by Jerry Cao
+// Winter 2022
+
+package main
+
+import (
+	"fmt"
+)
+
+func print_assignment(number int,assignment string){
+  fmt.Print("A",number,": ",assignment)
+  fmt.Println()
+}
+
+func main() {
+  var my_name="Jerry Cao"
+  var my_year=2025
+  fmt.Print(my_name,"(",my_year,")")
+  fmt.Println()
+	fmt.Println("CS150 WI2022")
+  
+  assignments := [9] string{"Three IDES", "Student Data", "Dogs of NYC", "Tracery", "Bayesian Movies", "Matchmaking", "Webscraping", "Cats and Colors", "Three Languages"}
+  
+  for x := 0; x < 9; x++{
+    print_assignment(x,assignments[x])
+  }
+}

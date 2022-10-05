@@ -1,0 +1,17 @@
+--A Lua Program by Jerry Cao
+--Winter 2022
+
+my_name = "Jerry Cao"
+my_year = 2025
+print(my_name.. my_year)
+print("CS 150 WI2022")
+
+assignments = {"Three IDES", "Student Data", "Dogs of NYC", "Tracery", "Bayesian Movies", "Matchmaking", "Webscraping", "Cats and Colors", "Three Languages"}
+
+function print_assignment(number)
+  print("A"..number-1 ..": "..assignments[number])
+end
+
+for x = 1, 9, 1 do
+  print_assignment(x)
+end

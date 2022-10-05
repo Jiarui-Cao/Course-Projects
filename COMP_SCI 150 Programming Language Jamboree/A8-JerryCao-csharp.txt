@@ -1,0 +1,38 @@
+﻿// A C# program by Jerry Cao, 
+// Winter 2022
+
+
+
+using System;
+
+namespace A8_JerryCao
+{
+    class Program
+    {
+        static void print_assignment(int number, string assignment_desc)
+        {
+            string text = $"A{number}: {assignment_desc}";
+            // Print data about an assignment
+            Console.WriteLine(text);
+        }
+
+        static void Main(string[] args)
+        {
+            string my_name = "Jerry Cao";
+            string my_year = "2025";
+            Console.WriteLine($"{my_name} ({my_year})");
+            Console.WriteLine("CS150 WI2022");
+
+            string[] assignments = {"Three IDES", "Student Data", "Dogs of NYC", "Tracery", "Bayesian Movies", 
+            "Matchmaking", "Webscraping", "Cats and Colors", "Three Languages"};
+
+            for (int i = 0; i < 9; i++)
+            {
+                // Print each assignment
+                string desc = assignments[i];
+                print_assignment(i, desc);
+            }
+        }        
+    }
+}
+
