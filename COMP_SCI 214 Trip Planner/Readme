@@ -1,0 +1,4 @@
+I implement a trip planning API that provides routing and searching services, by implementing some of the most notable ADTs, data structures, and algorithms we learned in COMP_SCI 214. Some of the most notable features include:
+ADTs: Dictionary, WUGraph, Priority Queue
+Data Structures: Hash Table, Adjacency Matrix, Binary Heap
+Algorithms: Dijkstra's Algorithm, Heap Sort
